@@ -50,7 +50,7 @@ function App() {
           <p>Matemática y Matemática financiera</p>
           <ul>
             <li>
-              <a href="/pdfs/guia-administracion.pdf" download="guia-administracion.pdf">
+              <a href="6toadmon.pdf" download="guia-administracion.pdf">
                 <img className="logo" src={viteLogo} alt="" />
                 Descargar guia de Sexto Administración
               </a>
@@ -66,7 +66,7 @@ function App() {
           <p>Matemática y Fisica</p>
           <ul>
             <li>
-              <a href="/pdfs/guia-quinto-bachillerato.pdf" download="guia-quinto-bachillerato.pdf">
+              <a href="5tobaco.pdf" download="guia-quinto-bachillerato.pdf">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -91,7 +91,7 @@ function App() {
               <button 
                 type="button" 
                 className="download-button"
-                onClick={() => handleDownload('/pdfs/guia-magisterio.pdf', 'guia-magisterio.pdf')}
+                onClick={() => handleDownload('6tomagis.pdf', 'guia-magisterio.pdf')}
               >
                 <svg
                   className="button-icon"
@@ -106,27 +106,7 @@ function App() {
           </ul>
         </div>
 
-        <div id="magisterio">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Quinto Bachillerato</h2>
-          <p>Matemática y Fisica</p>
-          <ul>
-            <li>
-              <a href="/pdfs/guia-quinto-bachillerato.pdf" download="guia-quinto-bachillerato.pdf">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                Descargar guia de Quinto Bachillerato
-              </a>
-            </li>
-          </ul>
-        </div>
+        
       </section>
 
       <div className="ticks"></div>
