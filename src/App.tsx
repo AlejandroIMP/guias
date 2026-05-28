@@ -106,6 +106,22 @@ function App() {
           </ul>
         </div>
 
+        <div id="evaluacion-graduandos">
+          <svg className="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#documentation-icon"></use>
+          </svg>
+          <h2>Evaluación Graduandos</h2>
+          <p>Guía de preparación para exámenes finales</p>
+          <ul>
+            <li>
+              <a href="evaluacion-graduandos.pdf" download="guia-evaluacion-graduandos.pdf">
+                <img className="logo" src={viteLogo} alt="" />
+                Descargar guia de Evaluación Graduandos
+              </a>
+            </li>
+          </ul>
+        </div>
+
         
       </section>
 
