@@ -114,7 +114,7 @@ function App() {
           <p>Guía de preparación para exámenes finales</p>
           <ul>
             <li>
-              <a href="evaluacion-graduandos.pdf" download="guia-evaluacion-graduandos.pdf">
+              <a href="evaluacion-graduandos.pdf" download="guia3robasico.pdf">
                 <img className="logo" src={viteLogo} alt="" />
                 Descargar guia de Evaluación Graduandos
               </a>
